@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+h1{
+    margin-bottom: 10px;
+    justify-content: center;
+    
+}
+p{
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+table{
+    width: 77%;
+    text-align: center;
+    margin-top: 20px;
+}
+th, tr, td{
+    border: 1px solid black;
+    padding: 1px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    text-align: center;
+   padding: 10px;
+}
